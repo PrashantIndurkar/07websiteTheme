@@ -1,0 +1,79 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display&display=swap');
+/* font-family: 'Playfair Display', serif;
+font-family: 'Lato', sans-serif; */
+
+/* comman  */
+h3{
+    font-family: 'Playfair Display', serif !important;
+    font-size: 2.5rem;   
+}
+/* Header */
+header{
+    background:linear-gradient(to right
+    ,rgb(241,107,56),rgb(203,63,147));
+    height: 60vh;
+}
+header img, button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+header  .sign{
+    background-color: #20203d !important;
+    border: #20203d;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    letter-spacing: 1px;
+}
+header h1{
+    font-family: 'Playfair Display', serif !important;
+    font-size: 3.4rem !important;
+}
+.navbar{
+    /* font-family: 'Playfair Display', serif; */
+}
+/* navbar */
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif !important;
+}
+.navbar .nav-link{
+    font-size: 1.3rem;
+    font-family: 'Lato', sans-serif;
+}
+/* Languages */
+/* Our Staff */
+#staff {
+    background-color: #2A2626;
+    color: #fff;
+}
+footer{
+    background-color: #000;
+    height: 20vh;
+    color: #fff;
+}
+
+
+
+
+
+/* Media Queres */
+@media screen and (width: 414px){
+    header img{
+        height:150px;
+        width:150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }     
+    header h1{
+        margin-top: 0rem !important;
+        font-family: 'Playfair Display', serif !important;
+        font-size: 2.3rem !important;
+    }
+  
+}
